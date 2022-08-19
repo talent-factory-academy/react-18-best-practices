@@ -1,6 +1,5 @@
 import React from 'react';
-import { NewsList } from './components/NewsList';
-import { NewsModal } from './components/NewsModal';
+import { NewsList, NewsModal } from './components';
 import { useNews } from './hooks/useNews';
 
 export default function NewsPage() {
