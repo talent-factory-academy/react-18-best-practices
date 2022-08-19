@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Title 1",
+      "description": "lorem ipsum",
+      "link": "http://www.google.com"
+    },
+    {
+      "id": 2,
+      "title": "Title 2",
+      "description": "lorem ipsum 2",
+      "link": "http://www.google.com"
+    },
+    {
+      "id": 3,
+      "title": "Title 3",
+      "description": "lorem ipsum 3",
+      "link": "http://www.google.com"
+    },
+    {
+      "title": "11111",
+      "description": "fewfewfew",
+      "link": "",
+      "id": 4
+    }
+  ]
+}
