@@ -12,6 +12,10 @@ export function NavBar() {
         to="cms" className="btn btn-outline-info"
         style={({ isActive }) => isActive ? { backgroundColor: 'orange'} : {}}
       >CMS</NavLink>
+      <NavLink
+        to="performance-demo" className="btn btn-outline-info"
+        style={({ isActive }) => isActive ? { backgroundColor: 'orange'} : {}}
+      >Performance Demo</NavLink>
     </div>
   </div>
 }

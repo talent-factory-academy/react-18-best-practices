@@ -20,19 +20,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/fabiobiondi/Documents/training/academy/react/react-18-best-practices/src/pages/cms/news",
+    "last_opened_file_path": "/Users/fabiobiondi/Documents/training/academy/react/react-18-best-practices/src/pages/cms/performance-demo/renders",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "/Users/fabiobiondi/Documents/training/academy/react/react-18-best-practices/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo/renders" />
+      <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo" />
+      <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo/components" />
+      <recent name="$PROJECT_DIR$/src/pages/cms" />
       <recent name="$PROJECT_DIR$/src/pages/cms/news" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/pages/cms/products" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -46,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660861909472</updated>
-      <workItem from="1660861910606" duration="15326000" />
+      <workItem from="1660861910606" duration="23963000" />
     </task>
     <servers />
   </component>
