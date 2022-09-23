@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "title": "Title 2",
+      "title": "Title 22",
       "description": "lorem ipsum 2",
       "link": "http://www.google.com"
     },
@@ -17,12 +17,6 @@
       "title": "Title 3",
       "description": "lorem ipsum 3",
       "link": "http://www.google.com"
-    },
-    {
-      "title": "11111",
-      "description": "fewfewfew",
-      "link": "",
-      "id": 4
     }
   ]
 }
