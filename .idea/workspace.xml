@@ -20,7 +20,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/fabiobiondi/Documents/training/academy/react/react-18-best-practices/src/pages/cms/performance-demo/renders",
+    "last_opened_file_path": "/Users/fabiobiondi/Documents/training/corsi-react/react-18-best-practices/src/pages/cms/performance-demo/defer_and_transition",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -31,11 +31,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo/defer_and_transition" />
       <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo/renders" />
       <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo" />
       <recent name="$PROJECT_DIR$/src/pages/cms/performance-demo/components" />
       <recent name="$PROJECT_DIR$/src/pages/cms" />
-      <recent name="$PROJECT_DIR$/src/pages/cms/news" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -50,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660861909472</updated>
       <workItem from="1660861910606" duration="24632000" />
-      <workItem from="1663968660170" duration="865000" />
+      <workItem from="1663968660170" duration="2193000" />
     </task>
     <servers />
   </component>

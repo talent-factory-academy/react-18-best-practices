@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { NavBar } from './core/NavBar';
+import NoOptimizedExample from './pages/cms/performance-demo/defer_and_transition/NoOptimizedExample';
 import PerformanceDemoPage from './pages/cms/performance-demo/PerformanceDemoPage';
 
 const HomePage  = lazy(() => import('./pages/home/HomePage'));
@@ -32,6 +33,7 @@ function App() {
               <PerformanceDemoPage />
             </Suspense>
           }>
+            <Route path="noOptimized" element={<NoOptimizedExample />} />
             <Route path="useTransition" element={<UseTransitionDemo />} />
             <Route path="useDeferredValue" element={<UseDeferredValueDemo />} />
             <Route path="memo-and-usecallback-1" element={<ReactMemoHelloDemo />} />
