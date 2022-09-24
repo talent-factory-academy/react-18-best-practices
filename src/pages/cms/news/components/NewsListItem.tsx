@@ -1,5 +1,6 @@
 import clsx from 'clsx';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { AppContext } from '../../../../core/app.store';
 import { News } from '../../../../model/news';
 import ArrowIcon from './ArrowIcon';
 
@@ -12,6 +13,7 @@ interface NewsListItemProps {
 export default function NewsListItem (props: NewsListItemProps) {
   const { item, onItemClick, onItemRemove } = props;
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const appState = useContext(AppContext);
 
   function removeNews(e: React.MouseEvent, id: number) {
     e.stopPropagation();
@@ -19,7 +21,10 @@ export default function NewsListItem (props: NewsListItemProps) {
   }
 
   return  <li
-    className={clsx('list-group-item')}
+    className={clsx(
+      'list-group-item',
+      { 'bg-dark text-white': appState?.theme === 'dark'}
+    )}
   >
     <div className="d-flex justify-content-between align-items-center">
       <div>
