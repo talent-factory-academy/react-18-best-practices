@@ -1,12 +1,12 @@
 import React, { useCallback, useState } from 'react';
 
-const ReactMemoDemo = () => {
+const ReactUseCallback = () => {
   const [value, setValue] = useState<number>(0);
   const [list, setList] = useState<string[]>(['Angular', 'React', 'Vue', 'Svelte', 'Solid'])
 
-  const removeItem = useCallback((itemToRemove: string) => {
+  const removeItem = ((itemToRemove: string) => {
     setList(s => s.filter(item => item !== itemToRemove));
-  }, [])
+  })
 
   return (
     <>
@@ -16,7 +16,7 @@ const ReactMemoDemo = () => {
   )
 };
 
-export default ReactMemoDemo;
+export default ReactUseCallback;
 
 
 /*+
@@ -31,7 +31,10 @@ const List = React.memo((props: ListProps) => {
   return <div>
     {
       props.data.map(item => (
-        <li key={item} onClick={() => props.onRemoveItem(item)}>{item}</li>
+        <li key={item} >
+          {item}
+          <button onClick={() => props.onRemoveItem(item)}>Del</button>
+        </li>
       ))
     }
   </div>

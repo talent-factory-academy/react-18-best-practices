@@ -13,7 +13,7 @@ const ProductsPage  = lazy(() => import('./pages/cms/products/ProductsPage'));
 const UseTransitionDemo = lazy(() => import('./pages/performance-demo/defer_and_transition/UseTransitionDemo')) ;
 const UseDeferredValueDemo = lazy(() => import('./pages/performance-demo/defer_and_transition/UseDeferredValueDemo')) ;
 const ReactMemoHelloDemo = lazy(() => import('./pages/performance-demo/renders/ReactMemoHelloDemo')) ;
-const ReactMemoDemo = lazy(() => import('./pages/performance-demo/renders/ReactMemoDemo')) ;
+const ReactMemoDemo = lazy(() => import('./pages/performance-demo/renders/ReactUseCallback')) ;
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
             <Route path="noOptimized" element={<NoOptimizedExample />} />
             <Route path="useTransition" element={<UseTransitionDemo />} />
             <Route path="useDeferredValue" element={<UseDeferredValueDemo />} />
-            <Route path="memo-and-usecallback-1" element={<ReactMemoHelloDemo />} />
+            <Route path="react-memo" element={<ReactMemoHelloDemo />} />
             <Route path="memo-and-usecallback-2" element={<ReactMemoDemo />} />
             <Route index element={<Navigate to="useTransition" /> } />
           </Route>

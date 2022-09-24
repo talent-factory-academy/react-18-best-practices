@@ -26,10 +26,10 @@ export default function PerformanceDemoPage() {
 
 
       <NavLink
-        to="memo-and-usecallback-1"
+        to="react-memo"
         className="btn btn-outline-dark"
         style={isActive}
-      > memo & usecallback: 1 </NavLink>
+      > React Memo </NavLink>
 
 
       <NavLink
