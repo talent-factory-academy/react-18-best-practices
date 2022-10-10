@@ -1,12 +1,16 @@
 import React, { useCallback, useState } from 'react';
 
+const memory = new Set();
+
 const ReactUseCallback = () => {
   const [value, setValue] = useState<number>(0);
   const [list, setList] = useState<string[]>(['Angular', 'React', 'Vue', 'Svelte', 'Solid'])
 
-  const removeItem = ((itemToRemove: string) => {
+  const removeItem = useCallback((itemToRemove: string) => {
     setList(s => s.filter(item => item !== itemToRemove));
-  })
+  }, [])
+  memory.add(removeItem);
+  console.log(memory) ; // try to remove useCallback to see how memory is increased
 
   return (
     <>
